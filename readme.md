@@ -1,4 +1,3 @@
-## Description
 This package is a module to manage uploads.
 This module has two actions `DownloadAction` and `UploadAction` to use them inside your controllers.
 Also this module has web interface to show your upload and to manage them.
