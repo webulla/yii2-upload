@@ -1,0 +1,34 @@
+{
+  "name": "webulla/yii2-upload",
+  "description": "A module to upload and download files through an api and an interface to manage uploads",
+  "keywords": [
+    "yii2",
+    "yii2-upload",
+    "files upload",
+    "gustarus"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/webulla/yii2-upload/issues?state=open",
+    "forum": "https://gitter.im/webulla/yii2-upload",
+    "source": "https://github.com/webulla/yii2-upload"
+  },
+  "authors": [
+    {
+      "name": "Pavel Kondratenko",
+      "email": "iam@kondratenko.me",
+      "homepage": "http://kondratenko.me"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "^2.0.0",
+    "yiisoft/yii2-bootstrap": "^2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "webulla\\upload\\": ""
+    }
+  }
+}
